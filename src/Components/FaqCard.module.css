@@ -1,0 +1,17 @@
+.card {
+	background: linear-gradient(var(--background-soft-violet), var(--background-soft-blue));
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	padding-top: 80px;
+	min-height: 100vh;
+}
+
+@media screen and (min-width: 1140px) {
+	.card {
+		flex-direction: row;
+	}
+}
