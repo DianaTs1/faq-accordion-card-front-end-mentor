@@ -15,6 +15,7 @@ Users should be able to:
 
 ![screencapture-localhost-3000-2021-09-16-23_31_07](https://user-images.githubusercontent.com/73934231/133719984-0bfe1719-a2ff-4725-b8d7-50ec29b6d3fb.png)
 
+![screencapture-localhost-3000-2021-09-16-23_34_18](https://user-images.githubusercontent.com/73934231/133720080-b39f9ee4-d101-4491-a9f9-3c8c2c48bdf1.png)
 
 <img width="225" alt="Screen Shot 2021-09-16 at 11 31 33 PM" src="https://user-images.githubusercontent.com/73934231/133719886-ec621d40-1767-40b2-bd17-d340f003242d.png">
 
