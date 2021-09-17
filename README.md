@@ -51,15 +51,14 @@ const [ showAnswer, setShowAnswer ] = useState(false);
 		setShowAnswer(!showAnswer);
 	};
 
-	let quetionStyle;
+	let questionStyle;
 	let iconStyle;
 
 	if (showAnswer) {
-		quetionStyle = {
+		questionStyle = {
 			color: 'black',
 			fontWeight: 700
 		};
-		console.log(quetionStyle);
 
 		iconStyle = {
 			transform: 'rotate(180deg)'
