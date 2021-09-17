@@ -9,16 +9,14 @@ const SingleFaq = (props) => {
 		setShowAnswer(!showAnswer);
 	};
 
-	let quetionStyle;
+	let questionStyle;
 	let iconStyle;
 
 	if (showAnswer) {
-		quetionStyle = {
+		questionStyle = {
 			color: 'black',
 			fontWeight: 700
 		};
-		console.log(quetionStyle);
-
 		iconStyle = {
 			transform: 'rotate(180deg)'
 		};
@@ -27,7 +25,7 @@ const SingleFaq = (props) => {
 	return (
 		<div className={classes['single-faq']}>
 			<div onClick={showAnswerHandler} className={classes['question-wrapper']}>
-				<h3 style={quetionStyle}>{props.question}</h3>
+				<h3 style={questionStyle}>{props.question}</h3>
 				<img
 					className={classes.icon}
 					style={iconStyle}
